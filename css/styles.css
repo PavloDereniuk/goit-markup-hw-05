@@ -672,8 +672,8 @@ h1, h2, h3, p, ul {
   transition: opacity 250ms var(--main-cubic-bezier);
 }
 
-.overflow-block:hover .hidden-text,
-.overflow-block:focus .hidden-text{
+.item .overflow-block:hover .hidden-text,
+.work-list-example:focus .overflow-block .hidden-text{
   opacity: 1;
   /* transform: translateY(0); */
 }
@@ -692,8 +692,8 @@ h1, h2, h3, p, ul {
   transition: opacity 250ms var(--main-cubic-bezier),  transform 250ms var(--main-cubic-bezier);
 }
 
-.overflow-block:hover .product-overlay,
-.overflow-block:focus .product-overlay{
+.item .overflow-block:hover .product-overlay,
+.work-list-example:focus .overflow-block .product-overlay{
   opacity: 1;
   transform: translateY(0);
 }
